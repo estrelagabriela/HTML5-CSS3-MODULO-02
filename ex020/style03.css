@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: rgba(139, 139, 4, 0.719);
+    text-decoration: underline;
+}
+a:active{
+    color: green;
+}
+a::before{
+    content:' ⚞';
+}
+a::after{
+    content: '⚟';
+}

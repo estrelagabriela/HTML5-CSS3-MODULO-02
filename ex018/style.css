@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #FFC7CD,#FF8795);
+    font-size: 16px;
+}  
+main{
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #86464da1;
+}
+p{
+    text-align: justify;
+}
+h1,h2{
+    font-family: "Imperial Script", cursive,sans-serif;
+    font-size: 2em;
+}
